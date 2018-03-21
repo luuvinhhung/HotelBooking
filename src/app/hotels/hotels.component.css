@@ -1,0 +1,16 @@
+div{
+    height: 230px;
+    border: 1px solid purple;
+    margin: 10px;
+    display: block;
+}
+img{
+    height: 230px;
+    float: left;
+    padding-right: 10px;
+}
+button{
+    display: block;
+    position: relative;
+    bottom: 0px;
+}
