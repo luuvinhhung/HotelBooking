@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstpageComponent implements OnInit {
   location: String = '';
+  show: Boolean = true;
+  hidden() {
+    if (this.show === true) {
+      this.show = !this.show;
+    }
+  }
   constructor() { }
 
   ngOnInit() {

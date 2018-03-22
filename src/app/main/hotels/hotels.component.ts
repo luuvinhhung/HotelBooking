@@ -6,9 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hotels.component.css']
 })
 export class HotelsComponent implements OnInit {
-
+  hotelPoster: String = 'assets/category1.png';
   constructor() { }
-
   ngOnInit() {
   }
 

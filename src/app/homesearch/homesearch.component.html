@@ -1,0 +1,20 @@
+
+<div class="search">
+  <input class="searchInput" 
+  [(ngModel)]='location' 
+  autofocus="autofocus" type="text" placeholder="Nhập tỉnh, thành phố">
+  <button mat-raised-button class="searchButton" 
+  (click) = 'search()'
+  color="primary"><i class="fa fa-search fa-2x"></i></button>
+</div>
+<div>
+    <span class="nhanPhong">
+        <a>Đặt phòng</a><br>
+        <input [(ngModel)] = "nhanPhong" class="inputDate" type="date" [min]='dayNow'><br>
+    </span>
+    <span class="traPhong">
+        <a>Trả phòng</a><br>
+        <input class="inputDate" type="date" [min]='dayNow'><br>
+    </span>
+    <button (click) = "test()">Test</button>
+</div>

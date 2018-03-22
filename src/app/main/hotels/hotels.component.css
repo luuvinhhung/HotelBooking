@@ -1,6 +1,6 @@
 div{
     height: 230px;
-    border: 1px solid purple;
+    border: 1px solid #673AB7;
     margin: 10px;
     display: block;
 }
@@ -9,8 +9,7 @@ img{
     float: left;
     padding-right: 10px;
 }
-button{
-    display: block;
-    position: relative;
-    bottom: 0px;
+.viewmore {
+    color: white;
+    background-color: #673AB7;
 }

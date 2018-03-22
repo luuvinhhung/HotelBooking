@@ -5,7 +5,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatInputModule} from '@angular/material/input';
-
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatMenuModule} from '@angular/material/menu';
 @NgModule({
     imports: [
         MatButtonModule,
@@ -14,7 +15,9 @@ import {MatInputModule} from '@angular/material/input';
         MatListModule,
         MatGridListModule,
         MatProgressBarModule,
-        MatInputModule
+        MatInputModule,
+        MatDatepickerModule,
+        MatMenuModule
     ],
     exports: [
         MatButtonModule,
@@ -22,7 +25,10 @@ import {MatInputModule} from '@angular/material/input';
         MatProgressSpinnerModule,
         MatListModule,
         MatGridListModule,
-        MatProgressBarModule
+        MatProgressBarModule,
+        MatInputModule,
+        MatDatepickerModule,
+        MatMenuModule
     ],
     declarations: [],
     providers: [],

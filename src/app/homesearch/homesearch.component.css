@@ -1,0 +1,32 @@
+.search {
+    padding-left: 635px;
+    display: inline-block;  
+}
+.searchInput {
+    height: 35px;
+    min-width: 555px;
+    margin-bottom: 5px; 
+    line-height: 2em; 
+
+}
+.searchButton {
+    height: 42px;
+    background-color: primary;
+}
+.nhanPhong {
+    display: inline-block;
+    border: 1px solid #EDEDF5;
+    height: 40px;
+    width: 318px;
+    margin-left: 635px;
+}
+.traPhong {
+    display: inline-block;
+    border: 1px solid #EDEDF5;
+    height: 40px;
+    width: 318px;
+    margin-left: 5px;
+}
+.inputDate {
+    width: 315px;
+}
