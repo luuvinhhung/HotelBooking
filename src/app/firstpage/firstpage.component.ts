@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./firstpage.component.css']
 })
 export class FirstpageComponent implements OnInit {
-
+  location: String = '';
   constructor() { }
 
   ngOnInit() {
   }
-
+  search() {
+    alert(this.location);
+  }
 }

@@ -7,7 +7,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { MaterialModule} from './material.module';
 import { HotelsComponent } from './hotels/hotels.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +15,7 @@ import { HotelsComponent } from './hotels/hotels.component';
     FirstpageComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule

@@ -2,7 +2,12 @@ header {
     height: 65px;
     border-bottom: 1px solid #EBECED;
 }
-.login {
+.logo {
+    height: 65px;
+    /* display: inline; */
+    /* border-bottom: 1px solid #EBECED; */
+}
+.loginButton {
     height: 65px;
     width: 150px;
     float: right;
@@ -10,11 +15,9 @@ header {
     text-align: center; 
     background-color: #a578f5;
 }
-.logo {
-    padding-left: 620px;
-    padding-top: 100px;
-}
 .logoImg {
+    padding-left: 620px;
+    padding-top: 70px;
     height: 100px;
     width: 300px;
     display: inline-block;
@@ -33,13 +36,21 @@ header {
     display: inline-block;  
 }
 .searchInput {
-    height: 40px;
-    width: 555px;
-    margin-bottom: 5px;  
+    height: 35px;
+    min-width: 555px;
+    margin-bottom: 5px; 
+    line-height: 2em; 
+
 }
 .searchButton {
     height: 42px;
     background-color: primary;
+}
+footer {
+    height: 65px;
+    text-align: center;
+    border-top: 1px solid #EBECED;
+    padding-top: 40px;
 }
 /* Slideshow container */
 .slideshow-container {

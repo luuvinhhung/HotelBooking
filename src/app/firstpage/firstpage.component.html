@@ -1,21 +1,26 @@
 <header>
-  <button class="login" mat-button>
+  <img class="logo" src="assets/letsgo.png" alt="" />
+  <button class="loginButton" mat-button>
     Đăng nhập  >
   </button>
 </header>
 
-<div class="logo">
+<div>
   <img class="logoImg" src="assets/letsgo.png" alt="">
 </div>
 <span class="slogan">Tìm cho bạn khách sạn phù hợp nhất cho kì nghỉ trọn vẹn</span>
 
 <div class="search">
-  <input class="searchInput" type="text" placeholder="Nhập tỉnh, thành phố">
-  <button mat-raised-button class="searchButton" color="primary">Tìm</button>
+  <input class="searchInput" 
+  [(ngModel)]='location' 
+  autofocus="autofocus" type="text" placeholder="Nhập tỉnh, thành phố">
+  <button mat-raised-button class="searchButton" 
+  (click) = 'search()'
+  color="primary"><i class="fa fa-search fa-2x"></i></button>
 </div>
 <div class="slideshow-container">
     <div class="mySlides fade">
-      <img src="assets/3t4.jpg" style="width: 960px; height: 720px;">
+      <img src="assets/category0.jpg" style="width: 960px; height: 720px;">
     </div>
    
     <div class="mySlides fade">
@@ -32,3 +37,4 @@
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
 </div>
+<footer>Copyright 2018 letsgo | Bảo lưu toàn quyền.</footer>
